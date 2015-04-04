@@ -1,0 +1,13 @@
+# mumag standdard problem 4
+-simulation 50000              5000000  2e-7
+#	    writeInterval     timesteps dt
+-rectang 500   125  3
+#        nx    ny   nz
+-material 0.02  1.3e-11   800      0        0        0   0   0
+#         alpha A (J/m) M_init.x M_init.y M_init.z Hkx Hky Hkz
+-readInitState
+-externfield -19.576 3.422 0.        0    3000000    3000000
+# field 1 in kA/m
+#-externfield -27.852 -5.013 0.        0    6000000    6000000    
+# uncomment the line above to apply field 2
+# field            x      y     z    startTime decayTime stopTime

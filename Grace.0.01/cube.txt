@@ -1,0 +1,9 @@
+# This input file will calculate the relaxation state of a cubic sample
+-simulation 100            1000    1e-3
+#	    writeInterval timesteps dt
+-rectang 8   8   8
+#        nx  ny  nz
+-material 1     0e-11   800      0        0        0   0   0
+#         alpha A (J/m) M_init.x M_init.y M_init.z Hkx Hky Hkz
+-externfield  0      0     0    0         200       400
+# externField x      y     z    startTime decayTime stopTime
